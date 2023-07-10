@@ -30,33 +30,33 @@ const Footer = () => {
           انضم لايميلنا الخاص واحصل على افضل المنتجات
         </FooterSubText>
         <Form>
-          <FormInput name="email" type="email" placeholder="Your Email" />
-          <Button fontBig>Subscribe</Button>
+          <FormInput name="email" type="email" placeholder="اكتب ايميلك" />
+          <Button fontBig>سجل</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinksItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLinkTitle>من محن</FooterLinkTitle>
+            <FooterLink to="/sign-up">كيف يعمل</FooterLink>
+            <FooterLink to="/">شهادة</FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLinkTitle>تواصل معنا</FooterLinkTitle>
+            <FooterLink to="/sign-up">كيف يعمل</FooterLink>
+            <FooterLink to="/">شهادة</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinksItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLinkTitle>الفيديوات</FooterLinkTitle>
+            <FooterLink to="/sign-up">كيف يعمل</FooterLink>
+            <FooterLink to="/">شهادة</FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLinkTitle>وسائل التواصل</FooterLinkTitle>
+            <FooterLink to="/sign-up">كيف يعمل</FooterLink>
+            <FooterLink to="/">شهادة</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -64,7 +64,7 @@ const Footer = () => {
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcon />
-            ULTRA
+            هاي / فيتامينز
           </SocialLogo>
           <WebsiteRights>ULTRA @ 2023</WebsiteRights>
           <SocialIcons>

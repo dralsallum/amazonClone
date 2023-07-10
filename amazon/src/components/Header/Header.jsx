@@ -13,8 +13,7 @@ import {
   HeaderSearchInput,
 } from "./Header.elements";
 
-import YoutubeSearchedForIcon from "@mui/icons-material/YoutubeSearchedFor";
-import CountUp from "react-countup";
+import ArticleIcon from "@mui/icons-material/Article";
 
 const Header = () => {
   return (
@@ -36,8 +35,8 @@ const Header = () => {
             مساعدتك فيه.
           </HeaderSubHeader>
           <HeaderSearch>
-            <YoutubeSearchedForIcon style={{ color: "white", fontSize: 25 }} />
-            <HeaderSearchInput>ابحث عن الفيتامينات</HeaderSearchInput>
+            <HeaderSearchInput>خذ الكويز الان</HeaderSearchInput>
+            <ArticleIcon style={{ color: "white", fontSize: 25 }} />
           </HeaderSearch>
         </HeaderContainerRight>
       </HeaderContainer>

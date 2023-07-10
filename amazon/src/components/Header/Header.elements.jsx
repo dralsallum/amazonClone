@@ -5,7 +5,9 @@ export const HeaderWrapper = styled.div`
   color: black;
   position: relative;
   direction: rtl;
+  margin-top: 3rem;
   @media screen and (max-width: 960px) {
+    margin-top: 1rem;
   }
 `;
 
@@ -39,7 +41,7 @@ export const HeaderLeftTitle = styled.div`
   justify-content: center;
   align-items: flex-start;
 `;
-export const HeaderSearch = styled.div`
+export const HeaderSearch = styled.button`
   display: flex;
   background-color: #759159;
   color: white;
@@ -50,16 +52,14 @@ export const HeaderSearch = styled.div`
   width: 15rem;
   align-items: center;
   transition: all 0.3s ease-out;
-
-  &:hover {
-    cursor: pointer;
-    background-color: #000000;
-  }
+  cursor: pointer;
 `;
 export const HeaderSearchButton = styled(MainButton)``;
 export const HeaderSearchInput = styled.div`
   border: none;
   outline: none;
+  background-color: #759159;
+  font-size: 1.2rem;
 `;
 export const HeaderOrangeCircle = styled.div`
   height: 4rem;

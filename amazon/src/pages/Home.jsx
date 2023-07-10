@@ -5,8 +5,8 @@ import {
   Slider,
   Header,
   Body,
+  About,
   Footer,
-  Consultation,
 } from "../components";
 
 const Home = () => {
@@ -17,6 +17,7 @@ const Home = () => {
       <Header />
       <Slider />
       <Body />
+      <About />
       <Footer />
     </>
   );

@@ -19,20 +19,24 @@ export const BannerWrapper = styled.div`
   transform: translateY(0px);
   color: white;
   gap: 0.4rem;
-
-  &:hover {
-    cursor: pointer;
-  }
 `;
 
-export const BannerPictureContainer = styled.div`
+export const BannerPictureContainer = styled.a`
   height: 40px;
   width: 40px;
 `;
 export const BannerPicture = styled.img`
   object-fit: contain;
   width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 export const BannerPara = styled.div`
   font-size: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
